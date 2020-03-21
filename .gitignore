@@ -21,12 +21,26 @@ build/
 *.ipr
 out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+### JS ###
+# dependencies
+/neural-network-app/node_modules
+/neural-network-app/.pnp
+/neural-network-app.pnp.js
 
-### VS Code ###
-.vscode/
+# testing
+/neural-network-app/coverage
+
+# production
+/neural-network-app/build
+
+# misc
+.DS_Store
+/neural-network-app/.env
+/neural-network-app/.env.local
+/neural-network-app/.env.development.local
+/neural-network-app/.env.test.local
+/neural-network-app/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
