@@ -44,3 +44,7 @@ dependencyManagement {
 test {
 	useJUnitPlatform()
 }
+
+bootJar {
+    launchScript()
+}
