@@ -23,6 +23,7 @@ out/
 
 ### JS ###
 # dependencies
+/backup-of-assets/node_modules
 /neural-network-app/node_modules
 /neural-network-app/.pnp
 /neural-network-app.pnp.js
