@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS weight;
+
+CREATE TABLE weight (
+    id INT AUTO_INCREMENT  PRIMARY KEY,
+    value DECIMAL NOT NULL,
+    time_stamp DATETIME NOT NULL,
+    created_at DATETIME NOT NULL DEFAULT CURRENT_TIME,
+    updated_at DATETIME NOT NULL DEFAULT CURRENT_TIME
+);
+
+INSERT INTO weight (value, time_stamp) VALUES
+    (80, '2020-04-01 08:00:00'),
+    (80.2, '2020-04-02 08:00:00'),
+    (80.4, '2020-04-03 08:00:00'),
+    (79.5, '2020-04-04 08:00:00'),
+    (80.3, '2020-04-05 08:00:00'),
+    (80, '2020-04-06 08:00:00');
